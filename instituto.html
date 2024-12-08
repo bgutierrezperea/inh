@@ -14,10 +14,10 @@
 <body>
     <!-- Header y navegación -->
     <header class="mb-3">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top animate__animated animate__backInRight">
             <div class="container">
                 <!-- Logo e Instituto -->
-                <img src="imagenes_css/img/logo_instituto_modificado.jpg" alt="Logo Instituto" class="logo">
+                <img src="/imagenes_instituto/encabezado/logo_instituto_modificado.jpg" alt="Logo Instituto" class="logo">
                 <a href="#" class="navbar-brand">
                     <span class="text-success">Instituto Superior</span> "Nuevo Horizonte"
                 </a>
@@ -34,25 +34,33 @@
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <!-- Elementos del menú -->
                         <li class="nav-item">
-                            <a href="index.html" class="nav-link btn btn-outline-success me-2">Inicio</a>
+                            <a href="/index.html" class="nav-link btn btn-outline-success me-2">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#instituto-info" class="nav-link btn btn-outline-success me-2">El Instituto</a>
+                            <a href="instituto.html" class="nav-link btn btn-outline-success me-2">El Instituto</a>
+                        </li>
+                        <li class="nav-item dropdown" data-bs-theme="dark">
+                            <a class="nav-link dropdown-toggle btn btn-outline-success me-2" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Carreras
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="Carreras/salud.html">Área Salud</a></li>
+                                <li><a class="dropdown-item" href="#">Área Técnico</a></li>
+                                <li><a class="dropdown-item" href="Carreras/informatica.html">Área Informática</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item">
-                            <a href="#galeria" class="nav-link btn btn-outline-success me-2">Galería</a>
+                            <a href="inscripciones.html" class="nav-link btn btn-outline-success me-2">Inscripciones</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#video-info" class="nav-link btn btn-outline-success me-2">Conoce Más</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#noticias" class="nav-link btn btn-outline-success me-2">Noticias</a>
+                            <a href="#contacto" class="nav-link btn btn-outline-success me-2">Contacto</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-    </header>
+      </header>
 
     <!-- Sección Información sobre el Instituto -->
     <section id="instituto-info" class="container mt-5 pt-5">
@@ -161,20 +169,20 @@
                         <img src="imagenes_instituto/noticias/noticia_instituto.jpg" class="d-block w-100 h-100" alt="Noticia 1">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Convenio con ¡PAPEL NOA!</h5>
-                            <p>El dia martes 26 de noviembre se realizó la firma de convenio con la empresa Papel NOA. Mediante este convenio nuestros estudiantes de la Tecnicatura Superior en Higiene y Seguridad Laboral podrán realizar sus prácticas profesionales en tan prestigiosa empresa</p>
+                            <p>El dia martes 26 de noviembre se realizó la firma de convenio con la empresa Papel NOA. Mediante este convenio nuestros estudiantes de la Tecnicatura Superior en Higiene y Seguridad Laboral podrán realizar sus prácticas profesionales en tan prestigiosa empresa.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="imagenes_instituto/noticias/noticia_instituto_2.jpg" class="d-block w-100 h-100" alt="Noticia 2">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>EXPO EDUCATIVA 2024</h5>
-                            <p class="text-warning">En la Ciudad Cultural tuvo lugar la Expo Educativa Provincial 2024, evento desarrollado entre los días 21 y 22 de noviembre,.</p>
+                            <p class="text-warning">En la Ciudad Cultural tuvo lugar la Expo Educativa Provincial 2024, evento desarrollado entre los días 21 y 22 de noviembre.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="imagenes_instituto/noticias/noticia_soft.jpg" class="d-block w-100 h-100" alt="Noticia 3">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>!Visita a OPENIX!</h5>
+                            <h5>¡Visita a OPENIX!</h5>
                             <p class="text-warning">Los alumnos de segundo año pertenecientes a la carrera de desarrollo de software tuvieron una charla en una reconocida empresa JUJEÑA de software.</p>
                         </div>
                     </div>
@@ -286,8 +294,8 @@
                     <!-- Logo y Dirección -->
                     <div class="col-md-3 text-center">
                         <img src="imagenes_instituto/encabezado/logo_instituto_modificado.jpg" alt="Logo del Instituto" class="pie-pagina mb-3" style="width: 80px; height: 80px;">
-                        <h5>Manuel Castellanos 323</h5>
-                        <p>Barrio Alto Comedero, Jujuy</p>
+                        <h5>Manuel Castellanos 323 Esquina Idelfonso Maria de la Paz B° 47 Hectareas</h5>
+                        <p>Barrio Alto Comedero, Jujuy, Argentina</p>
                     </div>
       
                     <!-- Enlaces Rápidos -->
@@ -295,9 +303,9 @@
                         <h5>Enlaces Rápidos</h5>
                         <ul class="list-unstyled">
                             <li><a href="index.html" class="text-white text-decoration-none">Inicio</a></li>
-                            <li><a href="nosotros.html" class="text-white text-decoration-none">El instituto</a></li>
-                            <li><a href="cursos.html" class="text-white text-decoration-none">Carreras</a></li>
-                            <li><a href="contacto.html" class="text-white text-decoration-none">Contacto</a></li>
+                            <li><a href="instituto.html" class="text-white text-decoration-none">El instituto</a></li>
+                            <li><a href="inscripciones.html" class="text-white text-decoration-none">Inscripciones</a></li>
+                            <li><a href="index.html" class="text-white text-decoration-none">Contacto</a></li>
                         </ul>
                     </div>
       
@@ -305,7 +313,6 @@
                     <div class="col-md-3">
                         <h5>Contacto</h5>
                         <p><i class="fas fa-phone"></i> Teléfono: (388) 123-4567</p>
-                        <p><i class="fas fa-envelope"></i> Email: info@instituto.com</p>
                     </div>
       
                     <!-- Redes Sociales -->
@@ -327,8 +334,6 @@
             </div>
         </section>
       </footer>
-      
-
     <script src="java.js"></script> <!-- Vincular el JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>

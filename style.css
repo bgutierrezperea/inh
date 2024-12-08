@@ -9,7 +9,6 @@ margin-right: 500px;
 }
 
 .logo{
-
     width: 50px; /* Ancho */
     height: auto;
     margin-right: 12px;
@@ -32,6 +31,20 @@ margin-right: 500px;
 
 }
 
+
+/* TARJETA DE INICIO*/
+.tarjeta-bienvenida {
+  max-width: 90%;
+  padding: 1rem;
+}
+
+@media (max-width: 576px) {
+  .tarjeta-bienvenida {
+    max-width: 80%;
+    font-size: 0.9rem;
+  }
+}
+
 .card-header {
     border: none; /* Sin bordes adicionales */
 }
@@ -43,12 +56,7 @@ margin-right: 500px;
     object-fit: cover;
     height: auto;
   }
-  .card {
-  border: none;
-  border-radius: 0px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease-in-out;
-}
+
 
 .card:hover {
   transform: scale(1.03);
@@ -70,7 +78,14 @@ margin-right: 500px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 /*Estilos de tarjetas excepto la primera*/
+.card-soft{
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 
+}
 .card-salud{
   height: 180px;
   width: 100%;
@@ -434,7 +449,7 @@ textarea {
   color: #ff7c62;
 }
 /* FIN DE INICIO/INDEX*/
-/* CAROUSEL DE CARRERAS*/
+/* CAROUSEL DE CARRERAS INFORMATICA*/
 .container-informatica .carousel-item {
 max-height: 400px;
 object-fit: cover;
